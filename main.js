@@ -27,6 +27,8 @@ const addItem=function(){
 const initialize=function(){
  s=window.localStorage.getItem('savedList');
  list=JSON.parse(s);
+ if(list===null)
+  list=[];
  refresh();
 }
 
