@@ -1,0 +1,49 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing:border-box;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color:whitesmoke;
+}
+.head{
+ display: flex;
+ justify-content: center;
+}
+.title{
+ width: fit-content;
+ font-size: 4rem;
+}
+.content{
+ margin-top: 2rem;
+ font-size: 2rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.data{
+ width: 20em;
+
+ display: grid;
+ grid-template-columns: 15fr 1fr;
+}
+.delbutton{
+ font-size: 1.5rem;
+ margin-top: auto;
+ margin-bottom: auto;
+ height: 2rem;
+ width: 2rem;
+}
+.add{
+ display: flex;
+}
+.addbox{
+ margin-top: 2rem;
+ font-size: 2rem;
+}
+.addbutton{
+ margin-top: 2rem;
+ font-size: 2rem;
+ padding-left: 1rem;
+ padding-right: 1rem;
+}
