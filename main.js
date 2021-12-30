@@ -13,6 +13,7 @@ const refresh= function(){
  })
 }
 const addItem=function(){
+ alert('');
  let string=document.querySelector('.addbox').value;
  string=string.trim();
  if(string==='')
